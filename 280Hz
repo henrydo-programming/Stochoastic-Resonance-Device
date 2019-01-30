@@ -1,3 +1,19 @@
+// Start Comments
+// This is the arduino code for the stochastic resonance device. It utilizes a C2 Tactor from Engineering Accoustics.
+// There are 4 versions of this code, differing only by frequency values. 
+// January 29, 2019
+// Written by Henry Do
+
+
+// The setup() function is called when a sketch starts. Use it to initialize 
+// variables, pin modes, start using libraries, etc. The setup() function will 
+// only run once, after each powerup or reset of the Arduino board.
+// The actions are performed in the functions "setup" and "loop"
+// but no information is reported to the larger program when 'void' precedes it.
+// End Comments
+
+
+
 void setup() {
   pinMode(A0, OUTPUT);
 
