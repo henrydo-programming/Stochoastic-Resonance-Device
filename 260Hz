@@ -1,0 +1,8 @@
+void setup() {
+  pinMode(A0, OUTPUT);
+
+}
+
+void loop() {
+  double v = sin(2 * PI * (((double)micros()) / 1000000.0) * 260) * 255;
+  analogWrite(A0, (int)v);
